@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#checkerboard {
+	width: auto;
+	height: auto;
+}
+
+div {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	height: 60px;
+}
+
+.pink, .blue {
+	width: 60px;
+	height: 60px;
+}
+
+.pink {
+	background: pink;
+}
+
+.blue {
+	background: blue;
+}
